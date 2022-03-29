@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #007284;
+  margin: auto;
+  padding: 107px;
+}
+
+/* Style the header */
+.header {
+  background-color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: lightgreen;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 46px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+/* Middle column */
+.middle {
+  text-align: center;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+}
+
+td{
+  padding-left: 220px;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.list{
+  padding: 10px;
+  background-color: white;
+  padding-left: 400px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #df2234;
+  padding: 1px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ .middle {
+    width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <table>
+    <tr>
+      <th>
+          <img src="logo.jpg" style="width: 150px; height: 150px;"></th>
+          <th style="width: 902px; height: 150px; background-image: url('banner.jpg');">
+  <center><h1>IZORA FLORIST</h1></center></th>
+</tr>
+</table>
+</div>
+
+<div class="topnav">
+<b><a href="index.html">HOME</a>
+   <a href="branches.html">OUR BRANCHES</a></b>
+</div>
+
+<div class="content">
+  <div class="middle">
+    <h1>Welcome To Izora Florist Website</h1>
+    <img src="flower1.jpg" style="width: 250px; height: 300px;">
+    <h2>Our Service</h2>
+     <table style="padding-left: 220px;">
+      <tr>
+        <td>-Flowers</td>
+      </tr>
+      <tr>
+        <td>-Bouquets</td>
+      </tr>
+      <tr>
+        <td>-Artificial & dry arrangements</td>
+      </tr>
+      <tr>
+        <td>-Vase & Pot arrangements</td>
+      </tr>
+      <tr>
+        <td>-Potted plants</td>
+      </tr>    
+    </table>
+    <br>
+    <marquee width="60%" direction="right" height="20px">Flower arrangements for occasions, event, celebrations, home, offices, hotels
+</marquee>
+  </div>
+</div>
+  
+  <div class="footer">
+  <h3>CONTACT US</h3>
+    <p>No. Tel / 082-8878787</p>
+    <p>Email /izoraflorist@gmail.com</p>
+    <p> &copy 2020</p>
+  
+ </div>
+</div>
+</body> 
+</html>
